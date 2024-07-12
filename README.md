@@ -1,2 +1,1 @@
-# iesimonbolivar.github.io
 Page
