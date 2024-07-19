@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/logo_sb.png">
+    <link rel="icon" href="../img/logo_sb.png">
     <title>I.E N2026 Simón Bolívar</title>
     <style>
         body {
@@ -94,37 +94,16 @@
             margin-left: auto;
             margin-right: 25px;
         }
-        .controls {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            padding: 0 30px;
-            box-sizing: border-box;
-        }
-        .control-btn {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .control-btn:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
         /* - Paneles */
         .panelciego_body {
             height: 105px;
             color: black;
             display: flex;
         }
-        .panel_contactenos {
+        .panel_quienes_somos {
             height: 550px;
             width: 100%;
-            background: linear-gradient(to right, #0619c6, #0619c6);
+            background: linear-gradient(to right, #0052de, #0081e4);
             color: black;
             display: flex;
         }
@@ -164,7 +143,50 @@
         </div>
     </div>
     <div class="panelciego_body"></div>
-    <div class="panel_contactenos">
+    <div class="panel_quienes_somos">
+        <div style=
+        "
+        background-color: white;
+        width: 1250px;
+        height: 1320px;
+        margin-top: 50px;
+        margin-left: 50px;
+        box-shadow: 0 0 10px 5px #0066ff;
+        ">
+        <div style=
+        "
+        color: #005eff;
+        margin-top: 30px;
+        margin-left: 65px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        ">
+        ¿Quiénes somos?
+        </div>
+        <hr style="width: 1140px"></hr>
+        <div style=
+        "
+        color: #005eff;
+        margin-top: 30px;
+        margin-left: 65px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        ">
+        Redes sociales:
+        </div>
+        <div style=
+        "
+        color: #002b58;
+        margin-top: 8px;
+        margin-left: 65px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        ">
+        
+        </div>
+        <br>
+        <br>
+        </div>
     </div>
 </body>
 <footer>
@@ -217,7 +239,7 @@
                 margin-top: 57px;
                 cursor: pointer;
          "
-         onclick="bajarxd(0,0)">。Regresar al inicio</div>
+         onclick="window.location.href = '../index.html'">。Regresar al inicio</div>
          <div style="
          z-index: 1;
             position: absolute; 
@@ -227,7 +249,7 @@
             height: 100%;
             overflow: hidden;
          ">
-            <img src="img/escarapela.png">
+            <img src="../img/escarapela.png">
          </div>
         </div>
     </div>
